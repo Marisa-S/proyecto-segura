@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Formulario de contacto</title>
+  </head>
+  <body>
+    <!-- Navegación -->
+    <header>
+      <nav>
+        <!-- Botón del menú hamburguesa -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <!-- Navegación -->
+        <ul class="nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html">Productos</a></li>
+          <li><a href="index.html">Carrito</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-form">
+      <!-- Formulario responsivo -->
+      <section id="contacto" class="contacto form">
+        <h2 class="titulo-form">Contáctanos</h2>
+        <form action="https://formspree.io/f/mwpkbdae" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required />
+
+          <label for="email">Correo:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Somos una tienda dedicada a ofrecer los mejores productos al mejor
+            precio.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: contacto@tienda.com</p>
+          <p>Teléfono: +54911 456 789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 | Made by Marisa Segura <span>Talento Tech</span></p>
+      </div>
+    </footer>
+  </body>
+</html>

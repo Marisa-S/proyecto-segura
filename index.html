@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navegación -->
+    <header>
+      <h3 class="title-header">Esta semana seguimos con el 30% off</h3>
+      <nav>
+        <!-- Botón del menú hamburguesa -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+
+        <!-- Navegación -->
+        <ul class="nav-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="formulario.html">Contacto</a></li>
+          <li><a href="#">Carrito</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="inicio" class="banner">
+      <h1>Bienvenido a nuestro E-commerce</h1>
+      <p>Encuentra los mejores productos aquí.</p>
+    </section>
+
+    <!-- Video -->
+    <section class="video-section">
+      <h2>Explora nuestra tienda</h2>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YXvfvjbEKCU?si=BkQkafwvNNTpYAOl"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <div class="contenedor">
+      <!-- Productos -->
+      <main>
+        <section id="productos" class="productos">
+          <h2>Nuestros Productos</h2>
+
+          <!-- Cards Products con Flexbox -->
+          <div class="cards-flex">
+            <div class="card">
+              <h3>Producto 1</h3>
+              <img
+                src="https://picsum.photos/200/150?random=1"
+                alt="Producto
+          1"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis, explicabo?
+              </p>
+              <p>$10.00</p>
+              <button>Añadir al carrito</button>
+            </div>
+            <div class="card">
+              <h3>Producto 2</h3>
+              <img
+                src="https://picsum.photos/200/150?random=9"
+                alt="Producto
+          1"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis, explicabo?
+              </p>
+              <p>$10.00</p>
+              <button>Añadir al carrito</button>
+            </div>
+            <div class="card">
+              <h3>Producto 3</h3>
+              <img
+                src="https://picsum.photos/200/150?random=45"
+                alt="Producto
+          1"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis, explicabo?
+              </p>
+              <p>$10.00</p>
+              <button>Añadir al carrito</button>
+            </div>
+            <div class="card">
+              <h3>Producto 4</h3>
+              <img
+                src="https://picsum.photos/200/150?random=6"
+                alt="Producto
+          1"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Blanditiis, explicabo?
+              </p>
+              <p>$10.00</p>
+              <button>Añadir al carrito</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Reseñas -->
+      <section class="reseñas">
+        <!-- Cards de reseñas con Grid -->
+        <div class="cards-grid">
+          <div class="card">
+            <h3>Ana</h3>
+            <p>El producto es mejor de lo esperado, la calidad es muy buena.</p>
+          </div>
+          <div class="card">
+            <h3>Claudio</h3>
+            <p>
+              La atención es fabulosa, la entrega a tiempo, seguiré comprando.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Tomás</h3>
+            <p>Muy recomendables, excelente calidad.</p>
+          </div>
+          <div class="card">
+            <h3>Sofía</h3>
+            <p>Los recomiendo. Excelente equipo de venta.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Somos una tienda dedicada a ofrecer los mejores productos al mejor
+            precio.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Nuestras Redes</h3>
+          <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: contacto@tienda.com</p>
+          <p>Teléfono: +54 911 456 789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 | Made by Marisa Segura <span>Talento Tech</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
